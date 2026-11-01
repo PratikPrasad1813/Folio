@@ -1,18 +1,26 @@
 # Dependencies
 node_modules/
 
-# Next.js generated files
+# Next.js
 .next/
 out/
 build/
 
-# Environment variables and secrets
-.env*
+# Environment variables
+.env
+.env.*
 !.env.example
 
-# Logs
-*.log
+# Deployment
+.vercel/
+.netlify/
 
-# OS files
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS / editor
 .DS_Store
 Thumbs.db
+.vscode/
